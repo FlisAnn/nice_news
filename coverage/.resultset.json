@@ -29,6 +29,12 @@
         0,
         0
       ],
+      "/Users/AnnFlismark/Craft_Academy/nice_news/app/controllers/articles_controller.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
       "/Users/AnnFlismark/Craft_Academy/nice_news/app/channels/application_cable/connection.rb": [
         0,
         0,
@@ -42,6 +48,6 @@
         0
       ]
     },
-    "timestamp": 1605381711
+    "timestamp": 1605384674
   }
 }
