@@ -1,0 +1,13 @@
+<br>
+<br>
+<%= form_with  model: @article, local: true do |form| %>
+  <strong><%= form.label :title%></strong>
+  <%= form.text_field :title %>
+  <strong><%= form.label :content %></strong>
+  <%= form.text_area :content %>
+  <br>
+  <br>
+  <%= form.submit 'Update Article'%>
+<% end %>
+<br>
+<%= link_to 'Back Article List', root_path %>
