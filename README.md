@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/FlisAnn/nice_news/badge.svg?branch=main)](https://coveralls.io/github/FlisAnn/nice_news?branch=main)
+
 # README
 
 This README would normally document whatever steps are necessary to get the
