@@ -30,7 +30,8 @@ class ArticlesController < ApplicationController
     if @article.update(article_params)
       redirect_to @article, notice: 'Article was successfully updated' #if updated redirected back to article + message
     else
-      redirect_to edit_article_path, notice: 'Something went wrong, try again' # other stay andshow error message
+      redirect_to edit_article_path, flash[:notice] = @article.errors.full_messages.to_sentence # other stay andshow error message
+      render :show
     end
   end
   
