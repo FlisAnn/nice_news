@@ -30,6 +30,16 @@
         0,
         null,
         null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
         null
       ],
       "/Users/AnnFlismark/Craft_Academy/nice_news/app/controllers/articles_controller.rb": [
@@ -99,6 +109,49 @@
         null,
         0
       ],
+      "/Users/AnnFlismark/Craft_Academy/nice_news/app/controllers/sessions_controller.rb": [
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/AnnFlismark/Craft_Academy/nice_news/app/controllers/user_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "/Users/AnnFlismark/Craft_Academy/nice_news/app/views/devise/welcome_controller.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
       "/Users/AnnFlismark/Craft_Academy/nice_news/app/channels/application_cable/connection.rb": [
         0,
         0,
@@ -112,6 +165,6 @@
         0
       ]
     },
-    "timestamp": 1605461535
+    "timestamp": 1605473413
   }
 }
