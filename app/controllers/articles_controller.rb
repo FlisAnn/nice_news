@@ -13,7 +13,12 @@ class ArticlesController < ApplicationController
 
   def create
     @article = Article.create(article_params) 
-      redirect_to root_path, notice: 'Your article was successfully created'
+    if @article.persisted?
+      redirect_to article_path(@article), notice: 'Your article was successfully created'
+    else
+      flash[:notice] = @article.errors.full_messages.to_sentence
+      render :new
+    end
   end
   
   def edit
@@ -22,9 +27,7 @@ class ArticlesController < ApplicationController
 
   def update
     @article = Article.find(params[:id])
-    if
-      article_params.present? 
-      @article.update(article_params)
+    if @article.update(article_params)
       redirect_to @article, notice: 'Article was successfully updated' #if updated redirected back to article + message
     else
       redirect_to edit_article_path, notice: 'Something went wrong, try again' # other stay andshow error message
